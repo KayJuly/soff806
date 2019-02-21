@@ -1,4 +1,4 @@
-# soff806 assignment 1
+# SOFT806 assignment 1
 
 ## Requirement
 This application is for Property Management System that is fictitious company.  It is inclued three functions suchas register, login, and main-form. If user can login successfully, user can see main-form.
