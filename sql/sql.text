@@ -1,0 +1,25 @@
+
+--
+-- Database: `ais`
+--
+CREATE DATABASE ais DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+--
+-- Table: `users`
+--
+CREATE TABLE ais. users (
+    user_id INT( 5 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+    username VARCHAR( 25 ) NOT NULL ,
+    email VARCHAR( 35 ) NOT NULL ,
+    password VARCHAR( 8 ) NOT NULL ,
+    UNIQUE (email)
+);
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`user_id`, `user_name`, `user_email`, `user_pass`) VALUES
+(1, 'user1', 'user1@ais.com', '12345678');
+INSERT INTO `users` (`user_id`, `user_name`, `user_email`, `user_pass`) VALUES
+(2, 'user2', 'user2@ais.com', '09876543');
