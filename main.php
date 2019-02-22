@@ -72,7 +72,7 @@ $result->close();
   <div class="w3-third w3-container w3-black w3-dark-grey" style="height:250px">
     <h2>Contact Info</h2>
     <p><i class="fa fa-map-marker" style="width:30px"></i> Auckland, NZ</p>
-    <p><i class="fa fa-phone" style="width:30px"></i> Phone: 021 151515</p>
+    <p><i class="fa fa-phone" style="width:30px"></i> Phone: 021 251515</p>
     <p><i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com</p>
   </div>
   <div class="w3-third w3-center w3-large w3-dark-grey w3-text-white" style="height:250px">
