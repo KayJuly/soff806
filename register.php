@@ -49,7 +49,7 @@ include_once 'connect.php';
 	<button type="submit" class="btn btn-default" name="signup">Registration</button>
 	<a href="index.php">Sign up</a>
 </form>
-	</div>
+</div>
 </div>
 
 </body>
