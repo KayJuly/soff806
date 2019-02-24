@@ -2,7 +2,7 @@
 ob_start();
 session_start();
 if( isset($_SESSION['user']) != "") {
-	header("Location: main.php");
+	hheader("Location: main.php");
 }
 include_once 'connect.php';
 ?>
