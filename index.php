@@ -1,11 +1,11 @@
-//<?php
+<?php
 ob_start();
 session_start();
 if( isset($_SESSION['user']) != "") {
 	header("Location: main.php");
 }
 include_once 'connect.php';
-//?>
+?>
 
 <?php
 if(isset($_POST['login'])) {
